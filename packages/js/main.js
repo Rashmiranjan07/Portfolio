@@ -125,78 +125,88 @@ function preLoader() {
   preloader.style.display = "none";
 }
 
-/*==================== END EMAIL VIA emailJs ====================*/
-const sendEmail = (params) => {
-  const serviceID = "service_embce24";
-  const templateID = "template_cci0niw";
 
-  emailjs
-    .send(serviceID, templateID, params)
+// Initialize EmailJS
+(function () {
+  emailjs.init("xNhWDu9T5bEE_V5tU"); // ✅ Your EmailJS Public Key
+})();
+
+// Send Email Function
+const sendEmail = (params) => {
+  const serviceID = "service_g1jed64";
+  const templateID = "template_mpysxl4";
+
+  emailjs.send(serviceID, templateID, params)
     .then((res) => {
       document.getElementById("name").value = "";
       document.getElementById("email").value = "";
       document.getElementById("message").value = "";
 
       document.getElementById("email-submit").innerHTML = `
-          Send message
-          <i class="uil uil-message button__icon"></i>`;
+        Send message
+        <i class="uil uil-message button__icon"></i>`;
 
-      alert("Your message send susscessfully!");
-      return;
+      alert("Your message was sent successfully!");
     })
     .catch((err) => {
       document.getElementById("email-submit").innerHTML = `
-          Send message
-          <i class="uil uil-message button__icon"></i>`;
-      console.error(err);
+        Send message
+        <i class="uil uil-message button__icon"></i>`;
+      console.error("Email send failed:", err);
+      alert("Failed to send message. Try again later.");
     });
 };
 
-/*==================== EMAIL VALIDATION API ====================*/
+// Validate Email Function
 const validateEmail = (email, params) => {
   const apiKey = "cf7383198f5a4c8a8b282a00c50dd08b";
-  const apiUrl = `https://emailvalidation.abstractapi.com/v1/?api_key=${apiKey}&email=${encodeURIComponent(
-    email
-  )}`;
+  const apiUrl = `https://emailvalidation.abstractapi.com/v1/?api_key=${apiKey}&email=${encodeURIComponent(email)}`;
 
   fetch(apiUrl)
     .then((response) => response.json())
     .then((data) => {
-      if (data.deliverability == "DELIVERABLE") sendEmail(params);
-      else {
-        alert("Invalid email address");
+      if (data.deliverability === "DELIVERABLE") {
+        sendEmail(params);
+      } else {
+        alert("Invalid or undeliverable email address.");
         document.getElementById("email-submit").innerHTML = `
-        Send message
-        <i class="uil uil-message button__icon"></i>`;
+          Send message
+          <i class="uil uil-message button__icon"></i>`;
       }
     })
     .catch((error) => {
-      console.error(error);
-      sendEmail(params);
+      console.error("Email validation failed:", error);
+      sendEmail(params); // fallback: still send
     });
 };
 
-/*==================== FORM SUBMIT ====================*/
-document.getElementById("contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
+// Form Submission
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("contact-form").addEventListener("submit", (e) => {
+    e.preventDefault();
 
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const message = document.getElementById("message").value;
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-  const isEmail = emailRegex.test(email);
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      alert("Invalid email format.");
+      return;
+    }
 
-  //validate email
-  if (!isEmail) {
-    alert("Invalid email address");
-    return 0;
-  }
-
-  const params = { name: name, email: email, message: message };
-  document.getElementById("email-submit").innerText = "Sending...";
-  validateEmail(email, params);
+    const params = { name: name, email: email, message: message };
+    document.getElementById("email-submit").innerText = "Sending...";
+    validateEmail(email, params);
+  });
 });
+
+
+
+
+
+
+
 
 /*==================== GITHUB CALENDAR ====================*/
 GitHubCalendar(".calendar", "Rashmiranjan07", {
