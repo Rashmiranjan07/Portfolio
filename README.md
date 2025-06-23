@@ -1,17 +1,15 @@
 # Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio template for Software Developers!
-
-> https://rashmiranjan07.github.io/Portfolio/
+> A clean, beautiful, responsive portfolio Website .
 
 
+![Portfolio Preview](D:\Portfolio\packages\images\image.png)
+To view a live example, **[click here](https://rashmiranjan07.github.io/Portfolio/)**
 
-### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p>
+> 
+
+
+
+
 
 :star: Star me on GitHub — it helps!
 
@@ -38,7 +36,7 @@
 ✔️ Contact Info\
 ✔️ Resume
 
-To view a live example, **[click here](https://varadbhogayata.github.io/)**
+
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
