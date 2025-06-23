@@ -1,4 +1,4 @@
-# Personal Portfolio ⚡️ 
+<!-- # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio Website .
 
 ## 🌐 Live Portfolio
@@ -8,7 +8,29 @@
 🔗 To view a live example, **[Click Here](https://rashmiranjan07.github.io/Portfolio/)**  
 
 
->
+> -->
+
+<div align="center">
+  
+  
+  <br />
+  <br />
+
+  <h2 align="center">Personal Portfolio Website</h2>
+
+  Fully responsive personal portfolio website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+
+  <a href="https://rashmiranjan07.github.io/Portfolio/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![Portfolio Desktop Demo](https://github.com/user-attachments/assets/cdb27a26-3ca3-42bd-825b-fed2c7908306 "Desktop Demo")
+
+<br />
 
 :star: Star me on GitHub — it helps!
 
@@ -49,6 +71,10 @@
 #### Step 3
 
 - 🔃 Create a new pull request.
+
+
+## Show your support
+Give a ⭐ if this project helped you! 
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
