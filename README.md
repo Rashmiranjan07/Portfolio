@@ -37,7 +37,7 @@
 ✔️ Skills \
 ✔️ Projects \
 ✔️ Contact \
-✔️ Resume \
+✔️ Resume 
 
 ## Contributing 💡
 #### Step 1
