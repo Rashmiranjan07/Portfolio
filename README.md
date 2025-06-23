@@ -1,20 +1,8 @@
-<!-- # Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio Website .
 
-## 🌐 Live Portfolio
-
-![Screenshot 2025-06-23 234557](https://github.com/user-attachments/assets/cdb27a26-3ca3-42bd-825b-fed2c7908306)
-
-🔗 To view a live example, **[Click Here](https://rashmiranjan07.github.io/Portfolio/)**  
-
-
-> -->
 
 <div align="center">
   
-  
-  <br />
-  <br />
+
 
   <h2 align="center">Personal Portfolio Website</h2>
 
