@@ -5,11 +5,10 @@
 
 [![Portfolio Preview](https://github.com/user-attachments/assets/69774126-da88-4d8d-8889-ff276b20dcec)](https://rashmiranjan07.github.io/Portfolio/)
 
-🔗 [Visit the Live Portfolio](https://rashmiranjan07.github.io/Portfolio/)
-
-To view a live example, **[click here](https://rashmiranjan07.github.io/Portfolio/)**  
+🔗 To view a live example, **[Visit the Live Portfolio](https://rashmiranjan07.github.io/Portfolio/)**  
 
 >
+
 :star: Star me on GitHub — it helps!
 
 ## Features 📋
