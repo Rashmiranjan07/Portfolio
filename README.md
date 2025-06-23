@@ -3,7 +3,7 @@
 
 ## 🌐 Live Portfolio
 
-[![Portfolio Preview](https://github.com/user-attachments/assets/69774126-da88-4d8d-8889-ff276b20dcec)
+![Screenshot 2025-06-23 234557](https://github.com/user-attachments/assets/cdb27a26-3ca3-42bd-825b-fed2c7908306)
 
 🔗 To view a live example, **[Visit the Live Portfolio](https://rashmiranjan07.github.io/Portfolio/)**  
 
