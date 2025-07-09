@@ -11,10 +11,7 @@
 
 <br />
 
-
-
-[![Screen Recording](https://github.com/user-attachments/assets/a6f59fd6-924f-404f-8d35-cc95012b1121)](https://rashmiranjan07.github.io/Portfolio/)
-
+[![Screen Recording](https://github.com/user-attachments/assets/78831147-133f-4e65-886f-6dc412065132)](https://rashmiranjan07.github.io/Portfolio/)
 
 ---
 
