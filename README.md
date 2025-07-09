@@ -11,9 +11,12 @@
 
 <br />
 
-### Demo Screeshots
 
-![Portfolio Desktop Demo](https://github.com/user-attachments/assets/cdb27a26-3ca3-42bd-825b-fed2c7908306 "Desktop Demo")
+
+[![Screen Recording](https://github.com/user-attachments/assets/a6f59fd6-924f-404f-8d35-cc95012b1121)](https://rashmiranjan07.github.io/Portfolio/)
+
+
+---
 
 <br />
 
