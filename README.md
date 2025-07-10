@@ -61,6 +61,16 @@
 ## Show your support
 Give a ⭐ if this project helped you! 
 
+## 📞 Contact
+
+👤 Rashmiranjan shaw
+
+- LinkedIn: [Rashmiranjan shaw](https://www.linkedin.com/in/rashmiranjan-shaw-8333a532a/)
+
+- GitHub: [Rashmiranjan07](https://github.com/Rashmiranjan07)
+
+- Email: heyyrashmiranjan02@gmail.com
+
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
