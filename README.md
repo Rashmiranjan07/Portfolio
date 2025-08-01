@@ -16,8 +16,9 @@
 ---
 
 <br />
-
+<div align="center">
 :star: Star me on GitHub — it helps!
+</div>
 
 ## Features 📋
 ⚡️ Fully Responsive\
