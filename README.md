@@ -10,8 +10,11 @@
 </div>
 
 <br />
-
+<div align="center">
+  
 [![Screen Recording](https://github.com/user-attachments/assets/78831147-133f-4e65-886f-6dc412065132)](https://rashmiranjan07.github.io/Portfolio/)
+
+</div>
 
 ---
 
