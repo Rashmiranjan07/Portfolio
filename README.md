@@ -28,6 +28,7 @@
 ⚡️ Valid HTML5 & CSS3\
 ⚡️ Typing animation using `main.js`\
 ⚡️ Easy to modify
+⚡️ manually set dark/light theme 
 
 ## Installation & Deployment 📦
 - Clone the repository and modify the content of <b>index.html</b> according to your requirement.
