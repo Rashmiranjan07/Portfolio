@@ -53,7 +53,6 @@
 - **Option 2**
     - 👯 Clone this repo to your local machine.
 
-
 #### Step 2
 
 - **Build your code** 🔨🔨🔨
@@ -78,5 +77,4 @@ Give a ⭐ if this project helped you!
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
 
