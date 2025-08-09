@@ -23,6 +23,7 @@
 :star: Star me on GitHub — it helps!
 </div>
 
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
@@ -30,11 +31,13 @@
 ⚡️ Easy to modify
 ⚡️ manually set dark/light theme 
 
+
 ## Installation & Deployment 📦
 - Clone the repository and modify the content of <b>index.html</b> according to your requirement.
 - Add or remove images from `(https://rashmiranjan07.github.io/Portfolio/)` directory as per your requirement.
 - To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
 - Push the generated code to the `main` branch of this repository.
+
 
 ## Sections 📚
 ✔️ Home\
@@ -43,6 +46,7 @@
 ✔️ Projects \
 ✔️ Contact \
 ✔️ Resume 
+
 
 ## Contributing 💡
 #### Step 1
@@ -77,4 +81,6 @@ Give a ⭐ if this project helped you!
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+
 
